@@ -5,7 +5,7 @@ import static java.lang.System.*;
  */
 public class Greeting {
     public static void main(String[] args) {
-       displayMessage2();
+        out.println(displayMessage2());
     }
     private static void displayMessage(String message) {
         out.println(message);
