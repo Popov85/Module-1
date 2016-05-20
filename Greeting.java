@@ -5,13 +5,15 @@ import static java.lang.System.*;
  */
 public class Greeting {
     public static void main(String[] args) {
-        out.println(displayMessage2());
+        displayMessage("Hi, I'm your first Java program!");
+        out.print(displayMessage2());
+
     }
     private static void displayMessage(String message) {
-        out.println(message);
+        out.print(message);
     }
     private static String displayMessage2() {
-        String statement="Hi, I'm your first Java program! Stay tuned!";
+        String statement=" Stay tuned!";
         return statement;
     }
 
