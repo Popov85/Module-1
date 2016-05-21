@@ -5,7 +5,8 @@ import static java.lang.System.*;
  */
 public class Greeting {
     public static void main(String[] args) {
-        displayMessage("Hi, I'm your first Java program! ");
+        String progLang="Java";
+        displayMessage("Hi, I'm your first "+ progLang+ " program! ");
         displayMessage("Stay tuned!");
 
     }
